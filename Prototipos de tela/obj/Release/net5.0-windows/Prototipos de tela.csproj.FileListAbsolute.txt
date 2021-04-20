@@ -1,0 +1,20 @@
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\Prototipos de tela.exe
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\Prototipos de tela.deps.json
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\Prototipos de tela.runtimeconfig.json
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\Prototipos de tela.runtimeconfig.dev.json
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\Prototipos de tela.dll
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\ref\Prototipos de tela.dll
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\bin\Release\net5.0-windows\Prototipos de tela.pdb
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.csprojAssemblyReference.cache
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos_de_tela.Login.resources
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos_de_tela.Form2.resources
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos_de_tela.Properties.Resources.resources
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.csproj.GenerateResource.cache
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.AssemblyInfoInputs.cache
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.AssemblyInfo.cs
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.csproj.CoreCompileInputs.cache
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.dll
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\ref\Prototipos de tela.dll
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.pdb
+C:\Users\Danilo\source\repos\Prototipos de tela\Prototipos de tela\obj\Release\net5.0-windows\Prototipos de tela.genruntimeconfig.cache

@@ -1,0 +1,5 @@
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.exe
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.deps.json
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.runtimeconfig.json
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.pdb

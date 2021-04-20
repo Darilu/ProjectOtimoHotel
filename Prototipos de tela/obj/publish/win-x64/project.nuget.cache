@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "frMEhh5fdnHWq9J/iU4o//27T2JIG6p8Pu6kuibSbvS5//raNtw0Ia2Y9PeaObvwSTsaxH6WAkMIFUkfvV6GQg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Danilo\\source\\repos\\Prototipos de tela\\Prototipos de tela\\Prototipos de tela.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Danilo\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.3\\microsoft.netcore.app.runtime.win-x64.5.0.3.nupkg.sha512",
+    "C:\\Users\\Danilo\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.3.nupkg.sha512",
+    "C:\\Users\\Danilo\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.3\\microsoft.aspnetcore.app.runtime.win-x64.5.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

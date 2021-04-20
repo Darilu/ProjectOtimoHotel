@@ -1,0 +1,11 @@
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.pdb
+C:\Users\Danilo\Desktop\PIM\Prototipos\clrcompression.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\clrjit.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\coreclr.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\mscordaccore.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\D3DCompiler_47_cor3.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\PenImc_cor3.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\PresentationNative_cor3.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\vcruntime140_cor3.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\wpfgfx_cor3.dll
+C:\Users\Danilo\Desktop\PIM\Prototipos\Prototipos de tela.exe
