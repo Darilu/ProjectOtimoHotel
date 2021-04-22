@@ -84,14 +84,16 @@ namespace Prototipos_de_tela
             //aaaaaaaaaaaaaaaaaaa
         }
 
-        private void TelaReservas_MouseLeave(object sender, EventArgs e)
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            TelaReservas.BackColor = Color.WhiteSmoke;
+
         }
 
-        private void TelaReservas_MouseEnter(object sender, EventArgs e)
+        private void timer1_Tick(object sender, EventArgs e)
         {
-            TelaReservas.BackColor = Color.Black;
+            this.label1.Text = DateTime.Now.ToString("HH:mm:ss");//Horario
+
+            this.label2.Text = DateTime.Now.ToString("d");//Data
         }
     }
 
