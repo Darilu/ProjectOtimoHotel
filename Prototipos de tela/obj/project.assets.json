@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danilo\\source\\repos\\Prototipos de tela\\Prototipos de tela\\Prototipos de tela.csproj",
+      "projectUniqueName": "C:\\Users\\Danilo\\source\\repos\\ProjectOtimoHotel\\Prototipos de tela\\Prototipos de tela.csproj",
       "projectName": "Prototipos de tela",
-      "projectPath": "C:\\Users\\Danilo\\source\\repos\\Prototipos de tela\\Prototipos de tela\\Prototipos de tela.csproj",
+      "projectPath": "C:\\Users\\Danilo\\source\\repos\\ProjectOtimoHotel\\Prototipos de tela\\Prototipos de tela.csproj",
       "packagesPath": "C:\\Users\\Danilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danilo\\source\\repos\\Prototipos de tela\\Prototipos de tela\\obj\\",
+      "outputPath": "C:\\Users\\Danilo\\source\\repos\\ProjectOtimoHotel\\Prototipos de tela\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Danilo\\AppData\\Roaming\\NuGet\\NuGet.Config",

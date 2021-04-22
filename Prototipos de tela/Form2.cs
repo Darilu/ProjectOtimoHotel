@@ -29,6 +29,7 @@ namespace Prototipos_de_tela
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            
 
         }
 
@@ -72,5 +73,29 @@ namespace Prototipos_de_tela
             _f1 = new Login();
             _f1.Show();
         }
+
+        private void TelaReservas_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_MouseHover(object sender, EventArgs e)
+        {
+            //aaaaaaaaaaaaaaaaaaa
+        }
+
+        private void TelaReservas_MouseLeave(object sender, EventArgs e)
+        {
+            TelaReservas.BackColor = Color.WhiteSmoke;
+        }
+
+        private void TelaReservas_MouseEnter(object sender, EventArgs e)
+        {
+            TelaReservas.BackColor = Color.Black;
+        }
     }
+
+
+
+
 }
