@@ -30,13 +30,10 @@ namespace Prototipos_de_tela
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.PictureBox pictureBox1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.TelaReservas = new System.Windows.Forms.ToolStripMenuItem();
-            this.BtnConsultaDeReservas = new System.Windows.Forms.ToolStripMenuItem();
-            this.BtnRegistroDeReservas = new System.Windows.Forms.ToolStripMenuItem();
-            this.BtnExcluirReservas = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnQuartos = new System.Windows.Forms.ToolStripMenuItem();
             this.TelaHospedes = new System.Windows.Forms.ToolStripMenuItem();
             this.TelaSair = new System.Windows.Forms.ToolStripMenuItem();
             this.BtnSair = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,30 +44,24 @@ namespace Prototipos_de_tela
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            resources.ApplyResources(pictureBox1, "pictureBox1");
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.TabStop = false;
             // 
             // menuStrip1
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.menuStrip1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.TelaReservas,
+            this.BtnQuartos,
             this.TelaHospedes,
             this.TelaSair,
             this.BtnRelatorios,
             this.BtnOpcoes,
             this.BtnFuncionarios});
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             this.menuStrip1.MouseHover += new System.EventHandler(this.menuStrip1_MouseHover);
             // 
@@ -78,35 +69,25 @@ namespace Prototipos_de_tela
             // 
             resources.ApplyResources(this.TelaReservas, "TelaReservas");
             this.TelaReservas.AutoToolTip = true;
-            this.TelaReservas.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.TelaReservas.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.BtnConsultaDeReservas,
-            this.BtnRegistroDeReservas,
-            this.BtnExcluirReservas});
+            this.TelaReservas.BackColor = System.Drawing.Color.Transparent;
             this.TelaReservas.ForeColor = System.Drawing.Color.Black;
             this.TelaReservas.Name = "TelaReservas";
             this.TelaReservas.Padding = new System.Windows.Forms.Padding(20);
             this.TelaReservas.Click += new System.EventHandler(this.TelaReservas_Click);
             // 
-            // BtnConsultaDeReservas
+            // BtnQuartos
             // 
-            resources.ApplyResources(this.BtnConsultaDeReservas, "BtnConsultaDeReservas");
-            this.BtnConsultaDeReservas.Name = "BtnConsultaDeReservas";
-            // 
-            // BtnRegistroDeReservas
-            // 
-            resources.ApplyResources(this.BtnRegistroDeReservas, "BtnRegistroDeReservas");
-            this.BtnRegistroDeReservas.Name = "BtnRegistroDeReservas";
-            // 
-            // BtnExcluirReservas
-            // 
-            resources.ApplyResources(this.BtnExcluirReservas, "BtnExcluirReservas");
-            this.BtnExcluirReservas.Name = "BtnExcluirReservas";
+            resources.ApplyResources(this.BtnQuartos, "BtnQuartos");
+            this.BtnQuartos.AutoToolTip = true;
+            this.BtnQuartos.ForeColor = System.Drawing.Color.Black;
+            this.BtnQuartos.Name = "BtnQuartos";
+            this.BtnQuartos.Padding = new System.Windows.Forms.Padding(20);
             // 
             // TelaHospedes
             // 
             resources.ApplyResources(this.TelaHospedes, "TelaHospedes");
             this.TelaHospedes.ForeColor = System.Drawing.Color.Black;
+            this.TelaHospedes.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.TelaHospedes.Name = "TelaHospedes";
             this.TelaHospedes.Padding = new System.Windows.Forms.Padding(20);
             // 
@@ -153,14 +134,15 @@ namespace Prototipos_de_tela
             // 
             // BtnFuncionarios
             // 
-            resources.ApplyResources(this.BtnFuncionarios, "BtnFuncionarios");
             this.BtnFuncionarios.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.BtnFuncionarios, "BtnFuncionarios");
             this.BtnFuncionarios.Name = "BtnFuncionarios";
             this.BtnFuncionarios.Padding = new System.Windows.Forms.Padding(25, 20, 20, 20);
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Name = "label1";
             // 
@@ -172,6 +154,7 @@ namespace Prototipos_de_tela
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
+            this.label2.BackColor = System.Drawing.Color.Gainsboro;
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Name = "label2";
             // 
@@ -179,8 +162,7 @@ namespace Prototipos_de_tela
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.Controls.Add(pictureBox1);
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
@@ -191,7 +173,6 @@ namespace Prototipos_de_tela
             this.Name = "Form2";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load_1);
-            ((System.ComponentModel.ISupportInitialize)(pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -212,15 +193,12 @@ namespace Prototipos_de_tela
         private System.Windows.Forms.ToolStripMenuItem TelaRegistroDeReservas;
         private System.Windows.Forms.ToolStripMenuItem TelaDeExcluir;
         private System.Windows.Forms.ToolStripMenuItem TelaConsultaDeReservas;
-        private System.Windows.Forms.ToolStripMenuItem BtnConsultaDeReservas;
-        private System.Windows.Forms.ToolStripMenuItem BtnRegistroDeReservas;
-        private System.Windows.Forms.ToolStripMenuItem BtnExcluirReservas;
         private System.Windows.Forms.ToolStripMenuItem BtnOpcoes;
         private System.Windows.Forms.ToolStripMenuItem BtnRelatorios;
         private System.Windows.Forms.ToolStripMenuItem BtnFuncionarios;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ToolStripMenuItem BtnQuartos;
     }
 }
