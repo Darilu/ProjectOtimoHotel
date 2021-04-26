@@ -1,7 +1,7 @@
 ﻿
 namespace Prototipos_de_tela
 {
-    partial class Form2
+    partial class TelaInicial
     {
         /// <summary>
         /// Required designer variable.
@@ -30,9 +30,9 @@ namespace Prototipos_de_tela
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.TelaReservas = new System.Windows.Forms.ToolStripMenuItem();
+            this.BtnReservas = new System.Windows.Forms.ToolStripMenuItem();
             this.BtnQuartos = new System.Windows.Forms.ToolStripMenuItem();
             this.TelaHospedes = new System.Windows.Forms.ToolStripMenuItem();
             this.TelaSair = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,10 +50,10 @@ namespace Prototipos_de_tela
             // menuStrip1
             // 
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
-            this.menuStrip1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.menuStrip1.BackColor = System.Drawing.Color.LightGray;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TelaReservas,
+            this.BtnReservas,
             this.BtnQuartos,
             this.TelaHospedes,
             this.TelaSair,
@@ -65,15 +65,15 @@ namespace Prototipos_de_tela
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             this.menuStrip1.MouseHover += new System.EventHandler(this.menuStrip1_MouseHover);
             // 
-            // TelaReservas
+            // BtnReservas
             // 
-            resources.ApplyResources(this.TelaReservas, "TelaReservas");
-            this.TelaReservas.AutoToolTip = true;
-            this.TelaReservas.BackColor = System.Drawing.Color.Transparent;
-            this.TelaReservas.ForeColor = System.Drawing.Color.Black;
-            this.TelaReservas.Name = "TelaReservas";
-            this.TelaReservas.Padding = new System.Windows.Forms.Padding(20);
-            this.TelaReservas.Click += new System.EventHandler(this.TelaReservas_Click);
+            resources.ApplyResources(this.BtnReservas, "BtnReservas");
+            this.BtnReservas.AutoToolTip = true;
+            this.BtnReservas.BackColor = System.Drawing.Color.Transparent;
+            this.BtnReservas.ForeColor = System.Drawing.Color.Black;
+            this.BtnReservas.Name = "BtnReservas";
+            this.BtnReservas.Padding = new System.Windows.Forms.Padding(20);
+            this.BtnReservas.Click += new System.EventHandler(this.BtnReservas_Click);
             // 
             // BtnQuartos
             // 
@@ -82,6 +82,7 @@ namespace Prototipos_de_tela
             this.BtnQuartos.ForeColor = System.Drawing.Color.Black;
             this.BtnQuartos.Name = "BtnQuartos";
             this.BtnQuartos.Padding = new System.Windows.Forms.Padding(20);
+            this.BtnQuartos.Click += new System.EventHandler(this.BtnQuartos_Click);
             // 
             // TelaHospedes
             // 
@@ -90,6 +91,7 @@ namespace Prototipos_de_tela
             this.TelaHospedes.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.TelaHospedes.Name = "TelaHospedes";
             this.TelaHospedes.Padding = new System.Windows.Forms.Padding(20);
+            this.TelaHospedes.Click += new System.EventHandler(this.TelaHospedes_Click);
             // 
             // TelaSair
             // 
@@ -121,6 +123,7 @@ namespace Prototipos_de_tela
             this.BtnRelatorios.ForeColor = System.Drawing.Color.Black;
             this.BtnRelatorios.Name = "BtnRelatorios";
             this.BtnRelatorios.Padding = new System.Windows.Forms.Padding(20);
+            this.BtnRelatorios.Click += new System.EventHandler(this.BtnRelatorios_Click);
             // 
             // BtnOpcoes
             // 
@@ -131,6 +134,7 @@ namespace Prototipos_de_tela
             this.BtnOpcoes.ForeColor = System.Drawing.Color.Black;
             this.BtnOpcoes.Name = "BtnOpcoes";
             this.BtnOpcoes.Padding = new System.Windows.Forms.Padding(20);
+            this.BtnOpcoes.Click += new System.EventHandler(this.BtnOpcoes_Click);
             // 
             // BtnFuncionarios
             // 
@@ -138,12 +142,13 @@ namespace Prototipos_de_tela
             resources.ApplyResources(this.BtnFuncionarios, "BtnFuncionarios");
             this.BtnFuncionarios.Name = "BtnFuncionarios";
             this.BtnFuncionarios.Padding = new System.Windows.Forms.Padding(25, 20, 20, 20);
+            this.BtnFuncionarios.Click += new System.EventHandler(this.BtnFuncionarios_Click);
             // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
-            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.Color.BlanchedAlmond;
             this.label1.Name = "label1";
             // 
             // timer1
@@ -154,24 +159,23 @@ namespace Prototipos_de_tela
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
-            this.label2.BackColor = System.Drawing.Color.Gainsboro;
-            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Name = "label2";
             // 
-            // Form2
+            // TelaInicial
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Black;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.ForeColor = System.Drawing.Color.White;
+            this.ForeColor = System.Drawing.Color.PaleTurquoise;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Name = "TelaInicial";
             this.Load += new System.EventHandler(this.Form2_Load_1);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -182,7 +186,7 @@ namespace Prototipos_de_tela
 
         #endregion
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem TelaReservas;
+        private System.Windows.Forms.ToolStripMenuItem BtnReservas;
         private System.Windows.Forms.ToolStripMenuItem Tela;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem BtnSair;

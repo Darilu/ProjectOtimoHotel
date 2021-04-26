@@ -4,10 +4,28 @@
     <_LastSelectedProfileId>C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Form1.cs">
+    <Compile Update="TelaOpcoes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form2.cs">
+    <Compile Update="TelaQuartos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaHospedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaFuncionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaRelatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TelaReservas.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

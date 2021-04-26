@@ -27,7 +27,6 @@ C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\bin\Debug\net5
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\bin\Debug\net5.0-windows\Prototipos de tela.pdb
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos de tela.csprojAssemblyReference.cache
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.Login.resources
-C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.Form2.resources
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.Properties.Resources.resources
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos de tela.csproj.GenerateResource.cache
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos de tela.GeneratedMSBuildEditorConfig.editorconfig
@@ -38,3 +37,10 @@ C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\ref\Prototipos de tela.dll
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos de tela.pdb
 C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos de tela.genruntimeconfig.cache
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaInicial.resources
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaFuncionarios.resources
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaRelatorios.resources
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaHospedes.resources
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaQuartos.resources
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaReservas.resources
+C:\Users\Danilo\source\repos\ProjectOtimoHotel\Prototipos de tela\obj\Debug\net5.0-windows\Prototipos_de_tela.TelaOpcoes.resources

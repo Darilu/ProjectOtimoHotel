@@ -30,8 +30,8 @@ namespace Prototipos_de_tela
         private void button1_Click(object sender, EventArgs e)//O programa nao fecha depois que o login e encerrado!!!!!!!!!!!!!!!!!!!!!!!!!
         {
             Hide();
-            Form2 TelaInicial;
-            TelaInicial = new Form2();
+            TelaInicial TelaInicial;
+            TelaInicial = new TelaInicial();
             TelaInicial.Show();
             
         }

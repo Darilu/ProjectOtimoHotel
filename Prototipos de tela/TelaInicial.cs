@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Prototipos_de_tela
 {
-    public partial class Form2 : Form
+    public partial class TelaInicial : Form
     {
-        public Form2()
+        public TelaInicial()
         {
             InitializeComponent();
         }
@@ -72,12 +72,11 @@ namespace Prototipos_de_tela
             Login _f1;
             _f1 = new Login();
             _f1.Show();
+
+           
         }
 
-        private void TelaReservas_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void menuStrip1_MouseHover(object sender, EventArgs e)
         {
@@ -94,6 +93,51 @@ namespace Prototipos_de_tela
             this.label1.Text = DateTime.Now.ToString("HH:mm:ss");//Horario
 
             this.label2.Text = DateTime.Now.ToString("d");//Data
+        }
+
+        private void BtnFuncionarios_Click(object sender, EventArgs e)
+        {
+            TelaFuncionarios TelaFuncionarios;
+            TelaFuncionarios = new TelaFuncionarios();
+            TelaFuncionarios.Show();
+        }
+
+        private void BtnRelatorios_Click(object sender, EventArgs e)
+        {
+            TelaRelatorios TelaRelatorios;
+            TelaRelatorios = new TelaRelatorios();
+            TelaRelatorios.Show();
+        }
+
+        private void TelaHospedes_Click(object sender, EventArgs e)
+        {
+            TelaHospedes TelaHospedes;
+            TelaHospedes = new TelaHospedes();
+            TelaHospedes.Show();
+        }
+
+        private void BtnQuartos_Click(object sender, EventArgs e)
+        {
+            
+            TelaQuartos TelaQuartos;
+            TelaQuartos = new TelaQuartos();
+            TelaQuartos.Show();
+            
+        }
+
+        private void BtnReservas_Click(object sender, EventArgs e)
+        {
+            TelaReservas TelaReservas;
+            TelaReservas = new TelaReservas();
+            TelaReservas.Show();
+
+        }
+
+        private void BtnOpcoes_Click(object sender, EventArgs e)
+        {
+            TelaOpcoes TelaOpcoes;
+            TelaOpcoes = new TelaOpcoes();
+            TelaOpcoes.Show();
         }
     }
 
