@@ -97,47 +97,92 @@ namespace Prototipos_de_tela
 
         private void BtnFuncionarios_Click(object sender, EventArgs e)
         {
-            TelaFuncionarios TelaFuncionarios;
-            TelaFuncionarios = new TelaFuncionarios();
-            TelaFuncionarios.Show();
+
+            if (Application.OpenForms.OfType<TelaFuncionarios>().Count() > 0)
+            {
+                Application.OpenForms["TelaFuncionarios"].BringToFront();
+                Application.OpenForms["TelaFuncionarios"].Close();
+            }
+            else
+            {
+                TelaFuncionarios frmForm1 = new TelaFuncionarios();
+                frmForm1.Show();
+            }
         }
 
         private void BtnRelatorios_Click(object sender, EventArgs e)
         {
-            TelaRelatorios TelaRelatorios;
-            TelaRelatorios = new TelaRelatorios();
-            TelaRelatorios.Show();
+
+            if (Application.OpenForms.OfType<TelaRelatorios>().Count() > 0)//Faz com que a aplicacao permita apenas uma janela de cada botao.
+            {
+                Application.OpenForms["TelaRelatorios"].BringToFront();
+                Application.OpenForms["TelaRelatorios"].Close();
+            }
+            else
+            {
+                TelaRelatorios TelaRelatorios1vez = new TelaRelatorios();
+                TelaRelatorios1vez.Show();
+            }
         }
 
         private void TelaHospedes_Click(object sender, EventArgs e)
         {
-            TelaHospedes TelaHospedes;
-            TelaHospedes = new TelaHospedes();
-            TelaHospedes.Show();
+            if (Application.OpenForms.OfType<TelaHospedes>().Count() > 0)
+            {
+                Application.OpenForms["TelaHospedes"].BringToFront();
+                Application.OpenForms["TelaHospedes"].Close();
+            }
+            else
+            {
+                TelaHospedes TelaHospedes1vez = new TelaHospedes();
+                TelaHospedes1vez.Show();
+            }
+
         }
 
         private void BtnQuartos_Click(object sender, EventArgs e)
         {
-            
-            TelaQuartos TelaQuartos;
-            TelaQuartos = new TelaQuartos();
-            TelaQuartos.Show();
-            
+
+            if (Application.OpenForms.OfType<TelaQuartos>().Count() > 0)
+            {
+                Application.OpenForms["TelaQuartos"].BringToFront();
+                Application.OpenForms["TelaQuartos"].Close();
+            }
+            else
+            {
+                TelaQuartos TelaQuartos1vez = new TelaQuartos();
+                TelaQuartos1vez.Show();
+            }
+
         }
 
         private void BtnReservas_Click(object sender, EventArgs e)
         {
-            TelaReservas TelaReservas;
-            TelaReservas = new TelaReservas();
-            TelaReservas.Show();
+            if (Application.OpenForms.OfType<TelaReservas>().Count() > 0)
+            {
+                Application.OpenForms["TelaReservas"].BringToFront();
+                Application.OpenForms["TelaReservas"].Close();
+            }
+            else
+            {
+                TelaReservas TelaReservas1vez = new TelaReservas();
+                TelaReservas1vez.Show();
+            }
 
         }
 
         private void BtnOpcoes_Click(object sender, EventArgs e)
         {
-            TelaOpcoes TelaOpcoes;
-            TelaOpcoes = new TelaOpcoes();
-            TelaOpcoes.Show();
+            if (Application.OpenForms.OfType<TelaOpcoes>().Count() > 0)//Faz com que a aplicacao permita apenas uma janela de cada botao.
+            {
+                Application.OpenForms["TelaOpcoes"].BringToFront();
+                Application.OpenForms["TelaOpcoes"].Close();
+            }
+            else
+            {
+                TelaOpcoes TelaOpcoes1vez = new TelaOpcoes();
+                TelaOpcoes1vez.Show();
+            }
         }
     }
 

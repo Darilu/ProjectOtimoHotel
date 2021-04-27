@@ -30,6 +30,7 @@ namespace Prototipos_de_tela
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.BotaoXSair = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -42,12 +43,27 @@ namespace Prototipos_de_tela
             this.label1.TabIndex = 0;
             this.label1.Text = "TELA RELATORIOS";
             // 
+            // BotaoXSair
+            // 
+            this.BotaoXSair.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BotaoXSair.AutoSize = true;
+            this.BotaoXSair.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BotaoXSair.Font = new System.Drawing.Font("Corbel", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BotaoXSair.Location = new System.Drawing.Point(1630, -2);
+            this.BotaoXSair.Name = "BotaoXSair";
+            this.BotaoXSair.Size = new System.Drawing.Size(30, 36);
+            this.BotaoXSair.TabIndex = 2;
+            this.BotaoXSair.Text = "x";
+            this.BotaoXSair.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BotaoXSair.Click += new System.EventHandler(this.BotaoXSair_Click);
+            // 
             // TelaRelatorios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(1660, 1080);
+            this.Controls.Add(this.BotaoXSair);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(260, 0);
@@ -63,5 +79,6 @@ namespace Prototipos_de_tela
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label BotaoXSair;
     }
 }

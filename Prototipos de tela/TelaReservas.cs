@@ -16,5 +16,11 @@ namespace Prototipos_de_tela
         {
             InitializeComponent();
         }
+
+        private void BotaoXSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
+    

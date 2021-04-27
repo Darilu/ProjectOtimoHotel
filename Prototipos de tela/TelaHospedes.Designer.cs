@@ -45,6 +45,7 @@ namespace Prototipos_de_tela
             this.BotaoXSair.TabIndex = 2;
             this.BotaoXSair.Text = "x";
             this.BotaoXSair.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BotaoXSair.Click += new System.EventHandler(this.BotaoXSair_Click);
             // 
             // label1
             // 
@@ -69,6 +70,7 @@ namespace Prototipos_de_tela
             this.Name = "TelaHospedes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "TelaHospedes";
+            this.Load += new System.EventHandler(this.TelaHospedes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

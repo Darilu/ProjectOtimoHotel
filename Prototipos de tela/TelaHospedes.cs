@@ -16,5 +16,15 @@ namespace Prototipos_de_tela
         {
             InitializeComponent();
         }
+
+        private void TelaHospedes_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BotaoXSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

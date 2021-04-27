@@ -55,6 +55,7 @@ namespace Prototipos_de_tela
             this.BotaoXSair.TabIndex = 2;
             this.BotaoXSair.Text = "x";
             this.BotaoXSair.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.BotaoXSair.Click += new System.EventHandler(this.BotaoXSair_Click);
             // 
             // TelaQuartos
             // 

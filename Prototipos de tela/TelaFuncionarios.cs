@@ -28,9 +28,7 @@ namespace Prototipos_de_tela
         private void BotaoXSair_Click(object sender, EventArgs e)
         {
             Close();
-            TelaInicial TelaInicial;
-            TelaInicial = new TelaInicial();
-            TelaInicial.Show();
+            
 
         }
     }
